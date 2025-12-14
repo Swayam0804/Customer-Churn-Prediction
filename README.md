@@ -1,12 +1,41 @@
 # Customer-Churn-Prediction
-A supervised Machine Learning project focused on analyzing customer behavior and accurately predicting customer churn for a telecommunications company. This project employs a Random Forest Classifier to identify high-risk customers, allowing the business to implement proactive retention strategies.
 
-## Features  
-- Implemented a full machine learning pipeline from raw data handling to final model deployment.
-- Utilized the class_weight='balanced' parameter within the Random Forest model to prevent bias and improve the model's ability to identify the minority (churning) class.
-- Used Feature Importance analysis to identify the top behavioral drivers of churn (e.g., contract type, tenure, monthly charges).
-- Optimized for high Recall and F1-Score to minimize False Negatives (missing a customer who is about to churn), which is critical for business revenue protection.
-- Performed custom cleaning on the TotalCharges column and utilized LabelEncoder for categorical feature transformation.
+## Project Overview ##
+- Customer churn refers to customers who stop using a company’s service.
+- In this project, I built a machine learning model to predict whether a customer is likely to churn based on their service usage and account information.
+- This type of problem is important for businesses because retaining existing customers is cheaper than acquiring new ones.
+
+## Objective ##
+- Predict whether a customer will churn or not
+- Understand which factors contribute most to customer churn
+- Build a classification model using machine learning
+
+## Dataset ##
+- Dataset used: **Telecom Customer Churn Dataset**
+- Each row represents a customer
+- Target variable: **Churn** (Yes / No)
+  
+## Model Used ##
+**Random Forest Classifier**
+  Chosen because it:
+- Handles complex data well
+- Reduces overfitting
+- Provides feature importance
+
+## Evaluation Metrics ##
+The model was evaluated using:
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+
+Recall was prioritized to correctly identify churn customers.
+
+## Key Features Influencing Churn ##
+- Contract type
+- Tenure
+- Monthly charges
+- Total charges
 
 ## Requirements  
 - Install dependencies:
