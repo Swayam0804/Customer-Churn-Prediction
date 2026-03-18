@@ -40,7 +40,7 @@ Recall was prioritized to correctly identify churn customers.
 ## Requirements  
 - Install dependencies:
    ```sh
-      pip install numpy matplotlib scikit-learn
+      pip install numpy matplotlib scikit-learn pandas seaborn imbalanced-learn
 
 ## How to Run
 1. Clone the repository to your local machine :
