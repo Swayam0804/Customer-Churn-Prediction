@@ -53,7 +53,7 @@ Raw Data → Cleaning → EDA → Encoding → Train/Test Split → SMOTE → Ra
 
 ### Feature Importance
 
-![Feature Importance]()
+![Feature Importance](plots/feature_importance.png)
 
 ### ROC-AUC Curve
 
